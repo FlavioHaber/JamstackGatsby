@@ -1,0 +1,41 @@
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    flex-direction: column;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+span {
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.container {
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.erro {
+    color: red;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "projeto-final",
+  "version": "1.0.0",
+  "private": true,
+  "description": "projeto-final",
+  "author": "Flavio J B Haber",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-mdx": "^5.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-paginate": "^8.2.0"
+  }
+}
